@@ -3,6 +3,9 @@ from TimeLoopLib import TreeDynamicTimeStepping
 import unittest
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Adds module blink
 class TestNeueKlasse(unittest.TestCase):	
     	def test_code_run_files_without_errors(self):
         	try:
@@ -11,6 +14,7 @@ class TestNeueKlasse(unittest.TestCase):
             		prj.runProject(time_stepper)
         	except:
             		self.fail("Fehler")
+<<<<<<< HEAD
 if __name__ == '__main__':
     unittest.main()
 =======
@@ -26,3 +30,7 @@ class TestNeueKlasse(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 >>>>>>> Erstellung eines ersten Versuchs der Programmierung einer Testabfrage
+=======
+if __name__ == '__main__':
+    unittest.main()
+>>>>>>> Adds module blink
