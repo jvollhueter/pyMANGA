@@ -95,11 +95,10 @@ cumsum_salinity = np.zeros_like(salinity_prefactors)
 calls = np.zeros_like(salinity_prefactors)
 counter = np.zeros((1), dtype=int)
 
-
 cumsum_savename = "./ProjectLib/ExampleSetups/ogs_example_setup/cumsum_salinity.npy"
 calls_savename = "./ProjectLib/ExampleSetups/ogs_example_setup/calls_in_last_timestep.npy"
 
-t_write = 10000000.0
+t_write = 110000000.0
 cell_information = CellInformation('./ProjectLib/ExampleSetups/ogs_example_setup/source_domain.vtu')
 # instantiate source term object referenced in OpenGeoSys' prj file
 flux_to_trees = FluxToTrees()
